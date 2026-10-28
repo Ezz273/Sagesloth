@@ -9,12 +9,12 @@ nav{
     justify-content: space-between;
     padding: 30px;
 }
-.headerButtons{
+.header-buttons{
     display: flex;
     gap: 20px;
     align-items: center;
 }
-#playerLoginHeader{
+#player-login-header{
     background-color: #192B24;
     padding: 10px;
     padding-left: 40px;
@@ -25,7 +25,7 @@ a{
     color:whitesmoke;
     text-decoration: none;
 }
-#currentHeader{
+#current-header{
     color: #70D6B2;
 }
 .hero{
@@ -34,48 +34,32 @@ a{
     padding-top: 100px;
     gap: 150px;
 }
-.heroMains{
+.hero-mains{
     width: 40%;
-}
-.heroMains h1{
-    font-size: 48px;
-}
-.heroMains div{
-    background-color: #a8d672;
-    padding: 1px;
-    padding-left: 16px;
-    border-radius: 32px;
-    width: 46%;
-    font-family: "roboto mono";
-    color: black;
 }
 .hero div img{
     height: 100%;
     border-radius: 30px;
 }
-#heroQuestText{
+#hero-quest-text{
     color: #a8d672;
     font-family: "Roboto mono";
-    font-size: 16px;
 }
-.resetModes{
-    margin-top: 5%;
-    margin-bottom: 5%;
+.reset-modes{
     padding: 5%;
-    background-color: #192B24;
 }
-#resetModesTop h6{
+#reset-modes-top h6{
     color: #69877c;
     font-family: "Roboto mono";
     font-size: smaller;
 }
-#resetButtons{
+#reset-buttons{
     display: flex;
     gap:10px;
     margin:40px;
     margin-left:0px;
 }
-.resetButtonBase{
+.reset-button-base{
     border-radius: 32px;
     background-color: #192B24;
     border: #70D6B2 1px solid;
@@ -83,44 +67,43 @@ a{
     padding-left: 20px;
     padding-right: 20px;
 }
-#resetButtonSelected{
+#reset-button-selected{
     background-color: #a8d672;
     border: 0px;
 }
-.resetModesOptions{
+.reset-modes-options{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
 }
-#resetModesTop{
+#reset-modes-top{
     align-self: left;
 }
-.rMOption{
+.rM-option{
     width: 29%;
+    background-color: #192B24;
     border-radius: 20px;
-    border: #69877c 1px solid;
+    border: #70D6B2 1px solid;
     text-align: left;
     padding: 20px;
 }
-.rMOption h5{
+.rM-option h5{
     font-family:"roboto mono"
 }
-.rMOption h6{
+.rM-option h6{
     padding: 8px;
     background-color:#111A16;
     border-radius: 64px;
     display:inline;
 }
 
-.rMOptionImageTime{
+.rM-option-image-time{
     display: flex;
     justify-content: space-between;
 }
-#RMOITA2{
+#RMOIT-A1{
     background-color: plum;
-    color:black;
-    font-family: "roboto mono";
     justify-content: center;
     align-items: center;
     display: flex;
@@ -128,10 +111,11 @@ a{
     height:64px;
     border-radius: 16px;
 }
-#RMOITA1{
+.reset-modes-A1-start{
+    color: plum;
+}
+#RMOIT-A2{
     background-color: #a8d672;
-    color:black;
-    font-family: "roboto mono";
     justify-content: center;
     align-items: center;
     display: flex;
@@ -139,10 +123,11 @@ a{
     height:64px;
     border-radius: 16px;
 }
-#RMOITA3{
+.reset-modes-A2-start{
+    color: #a8d672;
+}
+#RMOIT-A3{
     background-color: #ffb893;
-    color:black;
-    font-family: "roboto mono";
     justify-content: center;
     align-items: center;
     display: flex;
@@ -150,87 +135,76 @@ a{
     height:64px;
     border-radius: 16px;
 }
-.party{
-    padding: 80px;
+.reset-modes-A3-start{
+    color: #ffb893;
 }
-.partyOptions{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-.partyOptions div h3{
-    font-family: "Roboto mono";
-    font-size: 14px;
-}
-.partyOptions div img{
-    width: 100%;
-    border-radius: 16px;
-}
-.parOption1{
-    width: 29%;
-    background-color: #a8d672;
-    color: black;
-    border-radius: 20px;
-    text-align: left;
-    padding: 20px;
-}
-.parOption2{
-    width: 29%;
-    background-color: plum;
-    color: black;
-    border-radius: 20px;
-    text-align: left;
-    padding: 20px;
-}
-.parOption3{
-    width: 29%;
-    background-color: #ffb893;
-    color: black;
-    border-radius: 20px;
-    text-align: left;
-    padding: 20px;
-}
-.notes{
-    padding: 80px;
-}
-#notesTop{
-    display: flex;
-    justify-content: space-between;
-}
-.notesOptions{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-.notesOptions div h3{
-    font-family: "Roboto mono";
-    font-size: 14px;
-}
-.noteOption1{
-    width: 29%;
+#RMOIT-B1{
     background-color: #70D6B2;
-    color: black;
-    border-radius: 20px;
-    text-align: left;
-    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 64px;
+    height:64px;
+    border-radius: 16px;
 }
-.noteOption2{
-    width: 29%;
+.reset-modes-B1-start{
+    color: #70D6B2;
+}
+#RMOIT-B2{
+    background-color: #E8DD63;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 64px;
+    height:64px;
+    border-radius: 16px;
+}
+.reset-modes-B2-start{
+    color: #E8DD63;
+}
+#RMOIT-B3{
+    background-color: #F0E8D2;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 64px;
+    height:64px;
+    border-radius: 16px;
+}
+.reset-modes-B3-start{
+    color: #F0E8D2;
+}
+#invite-main{
+    margin: 10%;
+    margin-top: 0px;
+    background-color: #192B24;
+    display: flex;
+    gap: 20px;
+    padding: 5%;
+    border-radius: 32px;
+}
+#invite-main h1{
+    font-size: 32px;
+}
+#invite-percent{
     background-color: plum;
     color: black;
-    border-radius: 20px;
-    text-align: left;
-    padding: 20px;
+    font-size: 92px;
+    display: flex;
+    border-radius: 32px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Mono";
+    width:15%;
+    height:196px;
 }
-.noteOption3{
-    width: 29%;
-    background-color: #E8DD63;
+#invite-button{
+    width: 40%;
     color: black;
-    border-radius: 20px;
-    text-align: left;
-    padding: 20px;
+    border-radius: 8px;
+    background-color: #a8d672;
+    padding: 8px;
+    text-align: center;
 }
 footer{
     background-color: #192B24;
@@ -239,7 +213,7 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
-#footerIcons{
+#footer-icons{
     display: flex;
     justify-content: space-around;
     gap:20px;

@@ -9,12 +9,12 @@ nav{
     justify-content: space-between;
     padding: 30px;
 }
-.headerButtons{
+.header-buttons{
     display: flex;
     gap: 20px;
     align-items: center;
 }
-#playerLoginHeader{
+#player-login-header{
     background-color: #192B24;
     padding: 10px;
     padding-left: 40px;
@@ -25,7 +25,7 @@ a{
     color:whitesmoke;
     text-decoration: none;
 }
-#currentHeader{
+#current-header{
     color: #70D6B2;
 }
 .hero{
@@ -34,18 +34,35 @@ a{
     padding-top: 100px;
     gap: 150px;
 }
-.heroMains{
+.hero-mains{
     width: 40%;
 }
 
+.hero-buttons{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+#green-hero-button{
+    background-color: #a8d672;
+    color: black;
+    padding: 12px;
+    border-radius: 12px;
+    margin-right: 10px;
+}
+#black-hero-button{
+    border: #888 solid 2px;
+    padding: 12px;
+    border-radius: 12px;
+}
 .hero div img{
     height: 80%;
     border-radius: 30px;
 }
-#heroImage{
+#hero-image{
     position: relative;
 }
-#imageCalm{
+#image-calm{
     position: absolute;
     bottom: 8px;
     left: 8px;
@@ -53,46 +70,51 @@ a{
     background-color: #192B2480;
     padding: 16px;
 }
-#heroSave{
+#hero-save{
     color: #70D6B2;
     background-color: #192B24;
     border: #70D6B2 solid 1px;
     border-radius: 50px;
     padding-left:2%;
     height: 10%;
-    width: 60%;
+    width: 36%;
     display: flex;
 }
-#heroSaveCircle{
+#hero-save-circle{
     background-color: #70D6B2;
-    height: 10px;
-    border-radius: 5px;
-    width: 10px;
+    height: 12px;
+    width: 12px;
+    border-radius: 15px;
     align-self: center;
     margin-right: 4px;
 }
-#heroSaveText{
+#hero-save-text{
     align-self: center;
 }
-.resetModesOptions{
+.hero-save-circle-corners{
+    height: 10px;
+    width: 10px;
+    background-color: #192B24;
+}
+.reset-modes-options{
     padding: 5%;
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
-.resetModes{
+.reset-modes{
     text-align: center;
 }
-#resetModesTop{
+#reset-modes-top{
     text-align: left;
     padding-left: 80px
 }
-#resetModesTop h5{
+#reset-modes-top h5{
     font-family: "roboto mono";
     font-size: small;
     color: #a8d672;
 }
-.rMOption{
+.rM-option{
     width: 33%;
     background-color: #192B24;
     border-radius: 20px;
@@ -100,23 +122,23 @@ a{
     text-align: left;
     padding: 20px;
 }
-.rMOption h5{
+.rM-option h5{
     font-family:"roboto mono"
 }
-#resetModesHeartStart{
+#reset-modes-heart-start{
     color: #a8d672;
 }
-#resetModesPlusStart{
+#reset-modes-plus-start{
     color: #ffb893;
 }
-#resetModesTiltStart{
+#reset-modes-tilt-start{
     color: plum;
 }
-.rMOptionImageTime{
+.rM-option-image-time{
     display: flex;
     justify-content: space-between;
 }
-#RMOITheart{
+#RMOIT-heart{
     background-color: #a8d672;
     justify-content: center;
     align-items: center;
@@ -125,7 +147,7 @@ a{
     height:64px;
     border-radius: 16px;
 }
-#RMOITplus{
+#RMOIT-plus{
     background-color: #ffb893;
     justify-content: center;
     align-items: center;
@@ -134,7 +156,7 @@ a{
     height:64px;
     border-radius: 16px;
 }
-#RMOITtilt{
+#RMOIT-tilt{
     background-color: plum;
     justify-content: center;
     align-items: center;
@@ -143,31 +165,31 @@ a{
     height:64px;
     border-radius: 16px;
 }
-.beginnerQuest{
+.beginner-quest{
     background-color: #192B24;
     padding: 50px;
 }
-#questMain{
+#quest-main{
     display: flex;
     gap:90px;
     justify-content: center;
 }
-#questBreatheBox{
+#quest-breathe-box{
     background-color: black;
     border-radius: 32px;
     border:#192B24 1px solid;
     padding:20px;
     width: 40%;
 }
-#questTimer{
+#quest-timer{
     display: flex;
     justify-content: space-between;
 }
-#questTimerName{
+#quest-timer-name{
     color:#a8d672;
     font-family: "Roboto mono";
 }
-#questBreatheCircle{
+#quest-breathe-circle{
     width: 96px;
     height: 96px;
     background-color:#192B24;
@@ -177,13 +199,13 @@ a{
     padding: 16px;
     margin-top: 50px;
 }
-#questBreatheCircle div{
+#quest-breathe-circle div{
     background-color: #a8d672;
     width: 96px;
     height: 96px;
     border-radius: 48px;
 }
-#questProgress{
+#quest-progress{
     width: 90%;
     height: 20px;
     background-color: #192B24;
@@ -191,34 +213,34 @@ a{
     margin-top:40px;
     border-radius: 10px;
 }
-#questProgress div{
+#quest-progress div{
     width: 80%;
     height: 20px;
     background-color: #a8d672;
     border-radius: 10px;
 }
-#questDesc{
+#quest-description{
     width: 40%;
 }
-#questDesc h6{
+#quest-descrition h6{
     color:plum;
 }
-#questDesc h4{
+#quest-description h4{
     font-family: "roboto mono";
 }
-#playerNoteMain{
+#player-note-main{
     padding: 10%;
     text-align: center;
 }
-#playerNoteMain h1{
+#player-note-main h1{
     margin-top: 5%;
     margin-bottom: 5%;
 }
-#playerNoteNote{
+#player-note-note{
     color: #ffb893;
     font-family: "Roboto mono";
 }
-#inviteMain{
+#invite-main{
     margin: 10%;
     margin-top: 0px;
     background-color: #192B24;
@@ -226,16 +248,16 @@ a{
     border-radius: 32px;
     text-align: center;
 }
-#inviteDiv{
+#invite-div{
     display: flex;
     gap: 2%;
     justify-content: center;
     margin-left: 15%;
 }
-#inviteField{
+#invite-field{
     background-color: #192B24;
 }
-#inviteButton{
+#invite-button{
     width: 24%;
     border-radius: 8px;
     background-color: plum;
@@ -249,7 +271,7 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
-#footerIcons{
+#footer-icons{
     display: flex;
     justify-content: space-around;
     gap:20px;
